@@ -12,9 +12,9 @@ while (s[res] != '\0')
 return (res);
 }
 
-void ft_write_ch(char c){
+void ft_write_ch(char c)
+{
 write(1, &c, 1);
-
 }
 
 void search_and_replace(char *s, char letter_to_find, char letter_to_replace)
