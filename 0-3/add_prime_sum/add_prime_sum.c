@@ -48,7 +48,7 @@ void	add_prime_sum(int n)
 {
 	int	i;
 	int	count;
-
+	
 	count = 0;
 	if (n == 1)
 		count = 1;
